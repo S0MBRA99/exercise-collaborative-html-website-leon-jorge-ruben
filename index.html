@@ -1,56 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <title>Document</title>
-    <style>
-        *{
-            border: 1px dashed red;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="row mb-5 mt-5">
-            <div class="col-6">
-                <img src="website/assets/img/akaza_demon_slayer.webp" alt="akaza-demon-slayer" class="img-fluid rounded-5">
-            </div>
-            <div class="col-6">
-                <p>Akaza es un demonio de rango superior tres en *Demon Slayer*. Antes humano, fue transformado por Muzan Kibutsuji. Es poderoso, ágil y experto en artes marciales. A pesar de su brutalidad, muestra un código de honor al respetar a los oponentes fuertes. Su historia revela un pasado trágico y emocionalmente complejo.</p>
-            </div>
-        </div>
-        <div class="mx-auto">
-            <h2 class="header">Guia canina</h2>
-            <p>Elegir la raza adecuada depende de tu estilo de vida, espacio disponible y nivel de actividad. Considera si prefieres un perro activo o tranquilo, grande o pequeño. Evalúa el tiempo que puedes dedicarle y si tienes niños o mascotas. Investiga temperamento, cuidados y necesidades antes de tomar una decisión responsable.</p>
-            <div class="row mx-auto">
-                <div class=" card col-12 col-sm-4">
-                    <img src="website/assets/img/golden.webp" alt="golden" class="img-fluid">
-                    <div class="card-body">
-                        <h5>🐶 Golden Retriever</h5>
-                        <p>El Golden Retriever es un perro amable, inteligente y muy sociable. Se lleva bien con niños y adultos, siendo ideal para familias. Su pelaje dorado necesita cepillado regular. Son obedientes y fáciles de entrenar. Disfrutan el ejercicio al aire libre y requieren compañía frecuente para estar felices y equilibrados.</p>
-                    </div>
+<html>
+    <head>
+        <title>Choose a website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="mb-5">GIT & Bootstrap Collaborative Project</h1>
+            <div class="row">
+                <div class="col-sm-4 bg-dark text-center">
+                    <a href="./website/designs/thumb.jpg"><img style="max-height: 400px;" class="img-responsive" src="website/designs/thumb.jpg"></img></a>
                 </div>
-                <div class= "card col-12 col-sm-4">
-                    <img src="website/assets/img/pastor-aleman.webp" alt="pastor-aleman" class="img-fluid">
-                    <div class="card-body">
-                        <h5>🐕 Pastor Alemán</h5>
-                        <p>El Pastor Alemán es fuerte, leal y protector. Muy inteligente, aprende rápido y destaca en tareas como guardia o rescate. Necesita actividad física y mental diaria. Es un perro seguro, obediente y vigilante. Requiere un dueño firme, pero afectuoso. Bien socializado, es excelente compañero tanto en familia como trabajando.</p>
-                    </div>
-                </div>
-                <div class=" card col-12 col-sm-4">
-                    <img src="website/assets/img/perro-pequeño.jpg" alt="perro-pequeño" class="img-fluid">
-                    <div class="card-body">
-                        <h5>🐾 Cuidados para un perro pequeño</h5>
-                        <p>Los perros pequeños necesitan atención constante, paseos diarios y una dieta adaptada a su tamaño. Es importante controlar su temperatura, ya que son más sensibles al frío. Visitas veterinarias, cepillado frecuente y socialización desde cachorros son esenciales. Son cariñosos y suelen ser buenos compañeros en espacios reducidos como apartamentos.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                <div class="col-sm">
+                    <h2>One Page Wonder - Start Bootstrap Template</h2>
+                    <a class="btn btn-primary" href="./website/">Live Version</a>
+                    <a class="btn btn-warning" href="./website/designs/thumb.jpg">How it Should Look</a>
+                    <a class="btn btn-danger" href="./website/designs/guide.jpg">See the Guide</a>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
-</body>
+                    <div>
+                        <h2>Tips:</h2>
+                        <p>Copy and tweak components from <a href="https://getbootstrap.com/" target="_blank" >getbootstrap.com</a>.</p>
+                        <p>If you are looking at an example from <a href="https://getbootstrap.com/docs/5.1/examples/" target="_blank">https://getbootstrap.com/docs/5.1/examples/</a>, you can use the inspector (right mouse click to open this panel up) and then select the section you want in the "Elements" tab. Then go to copy, and copy element to quickly add to your project.</p>
+                        <p>To push changes to the website, remember this sequence:</p>
+                            <ul>
+                                <li>git add .</li>
+                                <li>git commit -m "what you modified"</li>
+                                <li>git push</li>
+                            </ul>
+                            <p>To see changes from teammates:</p>
+                                <ul>
+                                    <li>git pull</li>
+                                </ul>
+                                <p>To customize elements, use the style.css file located in assets/css.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
 </html>
